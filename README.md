@@ -91,7 +91,16 @@
 
 ## 3. 安装与运行条件
 
-### 需要的环境
+把这句话发给支持技能的代理：
+
+```bash
+帮我安装这个 skill：https://github.com/sushengs-creator/thinking-model-xiaohongshu
+```
+
+正常情况下，代理会找到仓库中的技能文件，然后完成安装。
+
+<details>
+<summary>运行条件（供代理检查）</summary>
 
 | 能力或依赖 | 用途 | 是否随本仓库提供 |
 | --- | --- | --- |
@@ -104,61 +113,7 @@
 
 本 Skill 是给执行者使用的工作规范和辅助脚本，不是一个单独运行的制图软件。安装文件不等于获得图像生成能力；只有文本对话能力的环境无法完成七图制作。依赖按所需环节检查，只做正文时无需检查出图工具。
 
-### 方式一：下载 ZIP 安装
-
-1. [下载完整仓库 ZIP](https://github.com/sushengs-creator/thinking-model-xiaohongshu/archive/refs/heads/main.zip)，或在仓库点击 **Code → Download ZIP**。
-2. 解压，将最外层仓库文件夹改名为 `thinking-model-xiaohongshu`。
-3. 放入 Codex 的技能目录：默认是用户主目录下的 `.codex/skills/`；如果设置了 `CODEX_HOME`，则使用该目录下的 `skills/`。
-4. 确认 `thinking-model-xiaohongshu/SKILL.md` 直接存在，不要出现两层同名目录。
-5. 在下一轮对话中尝试显式调用 `$thinking-model-xiaohongshu`，并检查所需依赖能否被读取。
-
-安装后的结构应为：
-
-```text
-skills/
-  thinking-model-xiaohongshu/
-    SKILL.md
-    README.md
-    LICENSE
-    agents/
-    assets/masters/       049-p01.jpg 至 049-p07.jpg
-    references/
-    scripts/
-```
-
-已有同名技能时先检查已有版本和个人修改，不直接覆盖。
-
-### 方式二：使用 Git 安装
-
-以下命令适用于 macOS、Linux 或 Git Bash。发现同名目录时停止，不覆盖已有版本：
-
-```sh
-xhs_skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/thinking-model-xiaohongshu"
-if [ -e "$xhs_skill_dir" ]; then
-  echo "目录已存在，请先检查已有版本：$xhs_skill_dir"
-else
-  mkdir -p "$(dirname "$xhs_skill_dir")"
-  git clone https://github.com/sushengs-creator/thinking-model-xiaohongshu.git "$xhs_skill_dir"
-fi
-```
-
-Pillow 安装到实际运行检查脚本的 Python 环境中：
-
-```sh
-python3 -m pip install Pillow
-```
-
-如果 Python 使用独立虚拟环境，后续检查也使用该环境的 Python。`humanizer-zh` 和图像生成工具需要另外在执行环境中准备，不能用一句“已经优化／已经出图”替代实际调用。
-
-### 安装后的第一次检查
-
-可以先给 Codex 这条指令，不会启动文章制作：
-
-```text
-检查 thinking-model-xiaohongshu 是否可用：核对SKILL.md、七张049母版、
-humanizer-zh、文档读取能力、可接收参考图的imagegen，以及Python和Pillow。
-只检查依赖，不开始制作，不生成图片。
-```
+</details>
 
 ## 4. 第一次如何使用
 
