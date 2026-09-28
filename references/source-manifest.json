@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S01",
+    "original": "小红书文案规范 v2.1（当前版本）.md",
+    "bundled": "references/sources/01-小红书文案规范 v2.1（当前版本）.md",
+    "sha256": "a9d99cbbfe5654364a549aeca67db8e61ddee0297ed3a1ab0abed246a9c3cbbd"
+  },
+  {
+    "id": "S02",
+    "original": "小红书7页图片规范 v2.1（当前版本）.md",
+    "bundled": "references/sources/02-小红书7页图片规范 v2.1（当前版本）.md",
+    "sha256": "cafe69aca844c2befdec59d07d05d5565182f4b7cb6545f8a3bf3013ee57e451"
+  },
+  {
+    "id": "S03",
+    "original": "小红书7张图片的文案优化提示词-2026年08月12日-来自【得到大脑】.md",
+    "bundled": "references/sources/03-小红书7张图片的文案优化提示词-2026年08月12日-来自【得到大脑】.md",
+    "sha256": "bda99b4a86c69fbbeb08b5ee398b6b9c8588b972f56556e1dc87c2338dbad220",
+    "original_sha256": "12e0c55d2338190d49d6c5d108c83e11d45803850989b3ef0709a7e62dc24075",
+    "public_edition": "General prompt only; appended article-specific example omitted."
+  },
+  {
+    "id": "S04",
+    "original": "小红书7图生成｜高效版固定母版提示词-2026年07月24日-来自【得到大脑】.md",
+    "bundled": "references/sources/04-小红书7图生成｜高效版固定母版提示词-2026年07月24日-来自【得到大脑】.md",
+    "sha256": "4b9b936bcc06be9dc085ed2ea687ad4d1b4da3cbe6465fd4232b9cfd6765893d",
+    "original_sha256": "33ed0421f316aaa047bd8d02263ce49a7fd8fc2491fc4d89c836059c2cf47696",
+    "public_edition": "General prompt only; appended article-specific example omitted."
+  },
+  {
+    "id": "S05",
+    "original": "思维模型系列｜小红书7张图片通用设计提示词-2026年07月14日-来自【得到大脑】.md",
+    "bundled": "references/sources/05-思维模型系列｜小红书7张图片通用设计提示词-2026年07月14日-来自【得到大脑】.md",
+    "sha256": "0c95080a4e0e616f6e9f46d0de5d631ab4a04e075b95339b5cd2c1747d0be0ab"
+  },
+  {
+    "id": "S06",
+    "original": "小红书文案提示词-2026年07月14日-来自【得到大脑】.md",
+    "bundled": "references/sources/06-小红书文案提示词-2026年07月14日-来自【得到大脑】.md",
+    "sha256": "f43f9a9e39162b90dc641e44793b762e04b5834c40cf262af9bd0fe2007c9f34"
+  },
+  {
+    "id": "P1",
+    "original": "思维模型049_可证伪性——怎么解释都对？_1_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p01.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "fd95c89226b45e615c66744b2861d2abc48f542aed498386487d9107d31d5b31"
+  },
+  {
+    "id": "P2",
+    "original": "思维模型049_可证伪性——怎么解释都对？_2_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p02.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "35cb55adf24f9fdc1ee3da1ba3d2f79b5a4087d414327ec2993ef65f2f90bd6a"
+  },
+  {
+    "id": "P3",
+    "original": "思维模型049_可证伪性——怎么解释都对？_3_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p03.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "9ab8b938704742ae39f3ab1dcb3166cdd8af75a988805ca0f97ca8c363f2f28c"
+  },
+  {
+    "id": "P4",
+    "original": "思维模型049_可证伪性——怎么解释都对？_4_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p04.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "d804863c5c663598d271ffbb1b81a50c24441be02a5cb7cfa901a326bd5ac534"
+  },
+  {
+    "id": "P5",
+    "original": "思维模型049_可证伪性——怎么解释都对？_5_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p05.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "39e096eb337d740065357cf3fa419bda16e1cf4be1552f4500d8ac499804bc74"
+  },
+  {
+    "id": "P6",
+    "original": "思维模型049_可证伪性——怎么解释都对？_6_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p06.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "9585225afb2f48b34467dfbe61aff9b952eab748f9a90f9956197c4ddbba743d"
+  },
+  {
+    "id": "P7",
+    "original": "思维模型049_可证伪性——怎么解释都对？_7_鬼子不言_来自小红书网页版.jpg",
+    "bundled": "assets/masters/049-p07.jpg",
+    "width": 1080,
+    "height": 1440,
+    "sha256": "9dadce518d52e66fbb9c686255b570dc0f4a62e67cc95d38cec4d59764551c8c"
+  }
+]

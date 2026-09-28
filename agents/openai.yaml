@@ -1,0 +1,6 @@
+interface:
+  display_name: "思维模型小红书制作"
+  short_description: "先提供单篇或多篇终稿文件，明确启动后自动制作文案与七图，按编号独立打包"
+  default_prompt: "使用 $thinking-model-xiaohongshu：我已提供本次思维模型终稿文件，开始小红书制作；每篇全流程自动完成，按编号独立打包，最终只给各ZIP下载链接。"
+policy:
+  allow_implicit_invocation: true
